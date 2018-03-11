@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovingZerosToTheEnd", "Kata\MovingZerosToTheEnd.csproj", "{1DD2C0EC-E102-4D9D-8E68-26084B4E4AED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertStringToCamelCase", "ConvertStringToCamelCase\ConvertStringToCamelCase.csproj", "{4AA9F54A-8BCB-489C-98CF-762DAD533039}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RgbToHexConversion", "RgbToHexConversion\RgbToHexConversion.csproj", "{3A437C54-3282-41B3-8B22-394A81593B8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{1DD2C0EC-E102-4D9D-8E68-26084B4E4AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DD2C0EC-E102-4D9D-8E68-26084B4E4AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DD2C0EC-E102-4D9D-8E68-26084B4E4AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA9F54A-8BCB-489C-98CF-762DAD533039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA9F54A-8BCB-489C-98CF-762DAD533039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA9F54A-8BCB-489C-98CF-762DAD533039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA9F54A-8BCB-489C-98CF-762DAD533039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A437C54-3282-41B3-8B22-394A81593B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A437C54-3282-41B3-8B22-394A81593B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A437C54-3282-41B3-8B22-394A81593B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A437C54-3282-41B3-8B22-394A81593B8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
