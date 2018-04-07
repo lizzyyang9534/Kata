@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using System.Linq;
 
 namespace AnagramDetection
 {
@@ -6,45 +6,14 @@ namespace AnagramDetection
 	{
 		public bool IsAnagram(string test, string original)
 		{
-			return AreSameDictionaries(GetStringDic(test), GetStringDic(original));
+			return GetFormatedString(test) == GetFormatedString(original);
 		}
 
-		private Dictionary<char, int> GetStringDic(string test)
+		private string GetFormatedString(string input)
 		{
-			var dic = new Dictionary<char, int>();
-			foreach (var s in test)
-			{
-				var key = char.ToLower(s);
-				if (dic.ContainsKey(key))
-				{
-					dic[key]++;
-				}
-				else
-				{
-					dic.Add(key, 1);
-				}
-			}
-			return dic;
-		}
-
-		private bool AreSameDictionaries(Dictionary<char, int> dic1, Dictionary<char, int> dic2)
-		{
-			if (dic1.Count != dic2.Count)
-			{
-				return false;
-			}
-			foreach (var item in dic1)
-			{
-				if (!dic2.ContainsKey(item.Key))
-				{
-					return false;
-				}
-				if (dic2[item.Key] != item.Value)
-				{
-					return false;
-				}
-			}
-			return true;
+			var str = input.ToLower().ToList();
+			str.Sort();
+			return string.Concat(str);
 		}
 	}
 }
