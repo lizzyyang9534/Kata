@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RgbToHexConversion", "RgbTo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsPlayDarts", "LetsPlayDarts\LetsPlayDarts.csproj", "{7E599970-162B-483C-8EEB-151FD6A447AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestSum", "LargestSum\LargestSum.csproj", "{AAED18D9-CC15-484F-81F2-E7066943DCA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramDetection", "AnagramDetection\AnagramDetection.csproj", "{C0FC1657-CFCB-4818-A19D-BCDA69EF8CEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{7E599970-162B-483C-8EEB-151FD6A447AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E599970-162B-483C-8EEB-151FD6A447AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E599970-162B-483C-8EEB-151FD6A447AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAED18D9-CC15-484F-81F2-E7066943DCA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAED18D9-CC15-484F-81F2-E7066943DCA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAED18D9-CC15-484F-81F2-E7066943DCA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAED18D9-CC15-484F-81F2-E7066943DCA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0FC1657-CFCB-4818-A19D-BCDA69EF8CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0FC1657-CFCB-4818-A19D-BCDA69EF8CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0FC1657-CFCB-4818-A19D-BCDA69EF8CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0FC1657-CFCB-4818-A19D-BCDA69EF8CEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

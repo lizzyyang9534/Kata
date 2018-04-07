@@ -28,7 +28,11 @@ namespace LetsPlayDarts
 			{
 				return "SB";
 			}
-			return "";
+
+			double radians = Math.Atan2(y, x);
+			double angle = radians * (180 / Math.PI);
+
+			return angle.ToString();
 		}
 	}
 }
