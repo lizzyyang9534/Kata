@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithmeticProgression", "Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWords", "ReverseWords\ReverseWords.csproj", "{27847C41-2CE9-460F-91FA-2FE4CB9D8444}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighestRank", "HighestRank\HighestRank.csproj", "{7C83D069-4B89-4489-BDA7-2EC63C9CF691}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{27847C41-2CE9-460F-91FA-2FE4CB9D8444}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27847C41-2CE9-460F-91FA-2FE4CB9D8444}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27847C41-2CE9-460F-91FA-2FE4CB9D8444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C83D069-4B89-4489-BDA7-2EC63C9CF691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C83D069-4B89-4489-BDA7-2EC63C9CF691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C83D069-4B89-4489-BDA7-2EC63C9CF691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C83D069-4B89-4489-BDA7-2EC63C9CF691}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
