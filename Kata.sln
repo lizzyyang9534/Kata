@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWords", "ReverseWord
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighestRank", "HighestRank\HighestRank.csproj", "{7C83D069-4B89-4489-BDA7-2EC63C9CF691}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiples", "Multiples\Multiples.csproj", "{98E33941-F02E-4CE3-81EB-CCF158E7A87B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{7C83D069-4B89-4489-BDA7-2EC63C9CF691}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C83D069-4B89-4489-BDA7-2EC63C9CF691}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C83D069-4B89-4489-BDA7-2EC63C9CF691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E33941-F02E-4CE3-81EB-CCF158E7A87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E33941-F02E-4CE3-81EB-CCF158E7A87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E33941-F02E-4CE3-81EB-CCF158E7A87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E33941-F02E-4CE3-81EB-CCF158E7A87B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
